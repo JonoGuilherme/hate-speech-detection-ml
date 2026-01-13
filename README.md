@@ -62,7 +62,7 @@ Models were evaluated using:
 
 A visual comparison between models is available in:
 
-metrics_comparison.png
+reports/metrics_comparison.png
 
 ---
 
