@@ -37,3 +37,51 @@ Due to class imbalance, **F1-score (macro)** was prioritized as the main evaluat
 ---
 
 ## 🛠️ Project Structure
+
+
+
+---
+
+## 🤖 Models Implemented
+
+### 1️⃣ TF-IDF + Logistic Regression
+- Fast and interpretable baseline
+- Suitable for lightweight moderation systems
+- Strong performance with low computational cost
+
+### 2️⃣ BERT (Transformer-based Model)
+- Captures contextual meaning in text
+- Better at detecting subtle and implicit hate speech
+- Higher F1-score compared to the baseline
+
+---
+
+## 📊 Model Evaluation
+Models were evaluated using:
+- F1-score (macro)
+- Accuracy
+- Precision and Recall
+- Confusion Matrix
+
+A visual comparison between models is available in:
+
+reports/metrics_comparison.png
+
+
+---
+
+## 🚀 Inference & Deployment
+A production-oriented inference script (`predict.py`) was implemented to:
+- Load trained models
+- Perform real-time predictions
+- Support future API or service integration
+
+---
+
+## 📦 Model Artifacts
+Due to repository size constraints, the trained BERT weights
+(`pytorch_model.bin`) are not included.
+
+The full training pipeline, configuration files, and tokenizer
+are available, allowing the model to be retrained or loaded from
+pretrained checkpoints.
